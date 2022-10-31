@@ -1,0 +1,17 @@
+﻿  Lab 1View.cpp
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(4): warning C4603: '_USE_MATH_DEFINES': macro is not defined or definition is different after precompiled header use
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(4): message : Add macro to precompiled header instead of defining here
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(5): message : use of precompiled header
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(178,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(179,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(184,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(188,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(189,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(194,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(201,33): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(202,33): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(208,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(211,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(212,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\K4T4L1N\Desktop\Lab 1\Lab 1\Lab 1View.cpp(217,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Lab 1.vcxproj -> C:\Users\K4T4L1N\Desktop\Lab 1\x64\Debug\Lab 1.exe
