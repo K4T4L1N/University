@@ -1,0 +1,68 @@
+CLIPS> (run)
+CLIPS> (load "E:/TRSI/Laborator 2.CLP")
+
+[CSTRCPSR4] Cannot redefine deftemplate carte while it is in use.
+
+ERROR:
+(deftemplate MAIN::carte
+Redefining deffacts: init
+Redefining defrule: cartea1 +j
+FALSE
+CLIPS> (reset)
+<== f-0     (initial-fact)
+==> f-0     (initial-fact)
+==> f-1     (carte (prenume_autor George) (nume_autor Calinescu) (titlu "Enigma Otiliei"))
+==> f-2     (carte (prenume_autor Mircea) (nume_autor Eliade) (titlu "Romanul Adolescentului Miop"))
+==> f-3     (carte (prenume_autor Marin) (nume_autor Preda) (titlu "Morometii"))
+==> f-4     (carte (prenume_autor Mihail) (nume_autor Sadoveanu) (titlu "Baltagul"))
+==> f-5     (carte (prenume_autor Marin) (nume_autor Preda) (titlu "Cel Mai Iubit Dintre Pamanteni"))
+==> f-6     (carte (prenume_autor Liviu) (nume_autor Rebreanu) (titlu "Ion"))
+==> f-7     (carte (prenume_autor Mircea) (nume_autor Eliade) (titlu "Maitreyi"))
+==> f-8     (carte (prenume_autor Mihail) (nume_autor Sadoveanu) (titlu "Hanu Ancutei"))
+==> f-9     (carte (prenume_autor Mircea) (nume_autor Eliade) (titlu "Domnisoara Cristina"))
+==> f-10    (carte (prenume_autor Calinescu) (nume_autor George) (titlu "Cartea Nuntii"))
+CLIPS> (clear)
+CLIPS> (run)
+CLIPS> (reset)
+==> f-0     (initial-fact)
+CLIPS> (run)
+CLIPS> (reset)
+<== f-0     (initial-fact)
+==> f-0     (initial-fact)
+CLIPS> (run)
+CLIPS> (reset)
+<== f-0     (initial-fact)
+==> f-0     (initial-fact)
+CLIPS> (run)
+CLIPS> (run 1)
+CLIPS> (clear)
+CLIPS> (reset)
+==> f-0     (initial-fact)
+CLIPS> (run)
+CLIPS> (load "E:/TRSI/Laborator 2.CLP")
+Defining deftemplate: carte
+Defining deffacts: init
+Defining defrule: cartea1 +j
+TRUE
+CLIPS> (run)
+CLIPS> (reset)
+<== f-0     (initial-fact)
+==> f-0     (initial-fact)
+==> f-1     (carte (prenume_autor George) (nume_autor Calinescu) (titlu "Enigma Otiliei"))
+==> f-2     (carte (prenume_autor Mircea) (nume_autor Eliade) (titlu "Romanul Adolescentului Miop"))
+==> f-3     (carte (prenume_autor Marin) (nume_autor Preda) (titlu "Morometii"))
+==> f-4     (carte (prenume_autor Mihail) (nume_autor Sadoveanu) (titlu "Baltagul"))
+==> f-5     (carte (prenume_autor Marin) (nume_autor Preda) (titlu "Cel Mai Iubit Dintre Pamanteni"))
+==> f-6     (carte (prenume_autor Liviu) (nume_autor Rebreanu) (titlu "Ion"))
+==> f-7     (carte (prenume_autor Mircea) (nume_autor Eliade) (titlu "Maitreyi"))
+==> f-8     (carte (prenume_autor Mihail) (nume_autor Sadoveanu) (titlu "Hanu Ancutei"))
+==> f-9     (carte (prenume_autor Mircea) (nume_autor Eliade) (titlu "Domnisoara Cristina"))
+==> f-10    (carte (prenume_autor Calinescu) (nume_autor George) (titlu "Cartea Nuntii"))
+CLIPS> (run)
+FIRE    1 cartea1: f-9
+Domnisoara Cristina EliadeMircea
+FIRE    2 cartea1: f-7
+Maitreyi EliadeMircea
+FIRE    3 cartea1: f-2
+Romanul Adolescentului Miop EliadeMircea
+CLIPS> 
