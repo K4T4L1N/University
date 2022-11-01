@@ -1,4 +1,0 @@
-Audi	31	25	15
-Mercedes	20	23	13
-Skoda	29	44	44
-BMW	12	27	27
