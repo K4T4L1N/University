@@ -1,0 +1,13 @@
+         CLIPS (V6.23 01/31/05)
+CLIPS> (load "E:/UNIVER_AN_3_1/TRSI/Laborator 4b.CLP")
+Defining defrule: summa +j
+Defining defrule: diferenta +j
+Defining defrule: gcd +j
+TRUE
+CLIPS> (reset)
+==> f-0     (initial-fact)
+CLIPS> (run)
+sum=6
+diff=0.5
+gcd=9
+CLIPS> 
